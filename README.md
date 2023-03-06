@@ -4,7 +4,7 @@ Jordan Wood
 Clay Fricke
 Logan Chayet
 Jack Higgins
-Preston 
+Preston Dotsey
 
 # REPO ORGANIZATION:
 Playswap.xcodeproj, PlaySwap.xcworkspace, and Main.storyboard cannot be viewed without XCode and will most likely be encrypted or look like gibberish xml. These files were originally auto generated when creating the project and the majority of our code in swift can be found in the ViewController.swift file. Main.storyboard is the file that an iPhone points to by default when trying to load the ui for an app. If you open this file in xcode, you will see an iphone with a sort of wireframe looking ui and a bar that says View Controller over it. This iphone screen is the main screen and is connected to our ViewController.swift. The resources folder contains all of our images and the mp4 thats played on the main screen. The Pods folder contains the packages we used for the project. The extensions folder contains some code for testing the spotify and apple music api's. Podfile and Podfile.lock are used for compiling and if there are any errors that pop up when you open the project, go to terminal and get into the main directory that has Podfile and type "pod install" you may have to look up how to install pod for this to work. TO ACTUALLY OPEN THE PROJECT: double click on PlaySwap.xcworkspace and the entire project should open in xcode if you have it. 
